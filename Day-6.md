@@ -101,6 +101,11 @@ For this app we will be using ruby a language we have not covered at all yet and
 
 Install with 
 
+On WSL, run this command together:
+
+`curl -sSL https://rvm.io/mpapis.asc | gpg2 -- import -`
+`curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -`
+
 `curl -L https://get.rvm.io | bash -s stable`
 
 You might with the above be asked to add keys follow those steps. 
@@ -108,6 +113,7 @@ You might with the above be asked to add keys follow those steps.
 For us to use rvm we need to do the following: 
 
 `source /home/vagrant/.rvm/scripts/rvm`
+
 
 and finally, install it with 
 
