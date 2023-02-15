@@ -67,6 +67,16 @@ In this part, we move from theory to practice.
 
 There isn't a silver bullet here, every system has its tools. We will work on Kubernetes as infrastructure with [Microservices demo](https://github.com/GoogleCloudPlatform/microservices-demo) application.
 
+clone the repository, cd into the repository and start minikube
+
+`minikube start --driver=docker`
+
+Screenshot 2023-02-15 at 17.45.23.png
+
+Follow other instruction as outlined within the documentation. 
+
+
+
 ### Control plane monitoring
 
 Kubernetes has an event auditing infrastructure called [audit logs](https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/).
