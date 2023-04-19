@@ -6,3 +6,6 @@
 90DaysofDevOps/pyenv
 90DaysofDevOps/bin
 90DaysofDevOps/lib
+90DaysofDevOps/__pycache__
+90DaysofDevOps/lib/python3.11/site-packages
+90DaysofDevOps/pyvenv.cfg
